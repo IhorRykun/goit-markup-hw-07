@@ -40,6 +40,7 @@ p,
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 /* хедер */
@@ -146,9 +147,6 @@ ul {
   color: var(--black-cl);
 }
 
-ul {
-  list-style: none;
-}
 
 .list-force .link:hover,
 .list-force .link:focus {
@@ -361,37 +359,6 @@ ul {
   color: #757575
 }
 
-.list-title {
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-
-  color: var(--black-cl);
-}
-
-
-.list-specific {
-  display: flex;
-}
-
-.section-specifics {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: var(--white-cl);
-}
-
-.div-svg-specification {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-  width: 270px;
-  height: 120px;
-  border-radius: 4px;
-  background-color: #F5F4FA;
-}
 
 .btn-back-drop {
   display: flex;
@@ -438,14 +405,6 @@ ul {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list-item {
-  display: block;
-  width: 270px;
-}
-
-.list-specific .list-item+.list-item {
-  margin-left: 30px;
-}
 
 .texterea-form-wraper {
   resize: none;
@@ -530,6 +489,50 @@ ul {
 }
 
 /* секція особливості */
+
+.specifics__list {
+  display: flex;
+}
+
+.section-specifics {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--white-cl);
+}
+
+.specifics__list--decoration .list-cmd+.list-cmd {
+  margin-left: 30px;
+}
+
+.specifics__list .specifics__item+.specifics__item {
+  margin-left: 30px;
+}
+
+.specifics__item {
+  display: block;
+  width: 270px;
+}
+
+.specifics__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  background-color: #F5F4FA;
+}
+
+.specifics__title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--black-cl);
+}
 
 
 /* Наші послуги */
@@ -646,10 +649,6 @@ ul {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--white-cl);
-}
-
-.list .list-cmd+.list-cmd {
-  margin-left: 30px;
 }
 
 .cmd-user {
