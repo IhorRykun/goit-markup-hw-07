@@ -592,6 +592,7 @@ ul {
 .section-tim {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: (var(--bgk-btn));
 }
 
 .list-flex {
