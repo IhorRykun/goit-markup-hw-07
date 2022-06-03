@@ -589,19 +589,18 @@ ul {
 
 /* наша команда */
 
-.section-tim {
+.section-team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: (var(--bgk-btn));
 }
 
-.list-flex {
+.team__list {
   display: flex;
 }
 
-.cmd-title {
+.team__title {
   margin-bottom: 50px;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -926,6 +925,18 @@ ul {
   fill: var(--blue-cl);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: scale(0.9);
+}
+
+.cmd-title {
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--black-cl);
 }
 
 
