@@ -537,13 +537,13 @@ ul {
 
 /* Наші послуги */
 
-.section-poslygi {
+.poslygi {
   padding-bottom: 94px;
   background-color: var(--white-cl);
   position: relative;
 }
 
-.poslygi-title {
+.poslygi__title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -552,6 +552,35 @@ ul {
 
   color: var(--black-cl);
 }
+
+.poslygi__list {
+  display: flex;
+}
+
+.poslygi__list .poslygi__item+.poslygi__item {
+  margin-left: 30px;
+}
+
+.poslygi__text {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+
+  font-weight: 700;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--white-cl);
+
+  transform: translate(30%, 30%);
+}
+
+.poslygi__img {
+  display: block;
+  max-width: 100%;
+}
+
 
 .texterea-form-wraper:focus+.texterea-lable-wraper {
   color: var(--blue-cl);
@@ -743,13 +772,6 @@ ul {
   text-decoration: none;
 }
 
-.list-flex {
-  display: flex;
-}
-
-.list-flex .list-li+.list-li {
-  margin-left: 30px;
-}
 
 .lst-portfolio-title {
   margin-bottom: 4px;
@@ -764,7 +786,7 @@ ul {
   background-color: var(--white-cl);
 }
 
-.div-portfolio-item {
+.card-list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -798,6 +820,12 @@ ul {
   position: relative;
   overflow: hidden;
 }
+
+.card-img {
+  display: block;
+  max-width: 100%;
+}
+
 
 .after-description::before {
   display: block;
@@ -928,11 +956,6 @@ ul {
   padding-bottom: 60px;
 }
 
-.img-link,
-.img-itm {
-  display: block;
-  max-width: 100%;
-}
 
 
 .list-li {
@@ -950,19 +973,6 @@ ul {
   bottom: 0;
   left: 0;
 
-}
-
-.img-poslygi-title {
-  position: absolute;
-  font-weight: 700;
-  line-height: 1.14;
-  text-align: center;
-  text-transform: uppercase;
-
-  color: var(--white-cl);
-  bottom: 30px;
-  left: 30px;
-  transform: translate(30%, 30%);
 }
 
 .porfolio-link:hover,
