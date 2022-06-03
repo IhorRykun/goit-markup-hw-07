@@ -594,6 +594,10 @@ ul {
   padding-bottom: 94px;
 }
 
+.list-flex {
+  display: flex;
+}
+
 .cmd-title {
   margin-bottom: 50px;
 
