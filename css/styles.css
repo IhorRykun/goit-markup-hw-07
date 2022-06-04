@@ -185,7 +185,7 @@ ul {
 
 /* мейн-контент */
 
-.main-section {
+.main {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2F303A;
@@ -195,7 +195,7 @@ ul {
   background-position: center;
 }
 
-.main-title {
+.main__title {
   width: 696px;
   padding-bottom: 30px;
   margin-right: auto;
@@ -211,9 +211,34 @@ ul {
 
 /* конопка мейна */
 
-.conteiner-main-btn {
+.conteiner-main--btn {
   display: flex;
   justify-content: space-around;
+}
+
+.main__btn {
+  width: 200px;
+  height: 50px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-cl);
+  background-color: var(--blue-cl);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-color: #188CE8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px
+}
+
+.main__btn:hover,
+.main__btn:focus,
+.main__btn:active {
+  background-color: #188CE8;
+  transform: scale(0.9);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* вікно бек-дропу */
@@ -585,7 +610,7 @@ ul {
 
 /* наша команда */
 
-.section-team {
+.team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: (var(--bgk-btn));
