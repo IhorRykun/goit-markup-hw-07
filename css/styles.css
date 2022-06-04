@@ -861,6 +861,13 @@ ul {
   color: var(--black-cl);
 }
 
+
+/* Картки портфоліо */
+.div-portfolio-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .lst-portfolio {
   background-color: var(--white-cl);
 }
