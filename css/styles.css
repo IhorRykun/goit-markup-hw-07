@@ -80,7 +80,7 @@ ul {
   margin-left: auto;
 }
 
-.container-nav,
+.container-navigation,
 .navigation {
   align-items: center;
   display: flex;
@@ -130,10 +130,6 @@ ul {
 .logo-header {
   color: var(--black-cl);
   margin-right: 70px;
-}
-
-.logo-footer {
-  color: var(--white-cl);
 }
 
 
@@ -754,6 +750,11 @@ ul {
 }
 
 /* футер */
+
+.logo-footer {
+  color: var(--white-cl);
+}
+
 .address {
   text-decoration: none;
   font-style: normal;
