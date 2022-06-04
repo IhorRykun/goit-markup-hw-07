@@ -22,6 +22,7 @@ body {
 }
 
 /* Атрибути головного контейнеру сайту */
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -30,6 +31,7 @@ body {
   margin-right: auto;
 }
 
+/* Скидання всіх відступів */
 h1,
 h2,
 h3,
@@ -599,8 +601,23 @@ ul {
 }
 
 .poslygi__img {
-  display: block;
   max-width: 100%;
+  display: block;
+}
+
+.poslygi__item {
+  position: relative;
+}
+
+.poslygi__item::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  bottom: 5px;
+  left: 0;
 }
 
 
@@ -1068,23 +1085,6 @@ ul {
 }
 
 
-
-.list-li {
-  position: relative;
-}
-
-
-.list-li::before {
-  position: absolute;
-  display: block;
-  content: "";
-  width: 100%;
-  height: 70px;
-  background: rgba(47, 48, 58, 0.8);
-  bottom: 0;
-  left: 0;
-
-}
 
 .porfolio-link:hover,
 .porfolio-link:focus {
