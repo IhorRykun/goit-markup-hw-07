@@ -1,0 +1,31 @@
+
+/* Логотип компанії */
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  color: var(--blue-cl);
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.logo-header {
+  color: var(--black-cl);
+  margin-right: 70px;
+}
+
+// логотип футер//
+.footer-logo-adress {
+
+  margin-right: 70px;
+}
+
+.footer-svg-list {
+  display: flex;
+}
+
