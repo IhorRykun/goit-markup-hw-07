@@ -8,11 +8,9 @@
   line-height: 1.19;
 
   color: $blue-cl;
+    text-decoration: none;
 }
 
-.logo {
-  text-decoration: none;
-}
 
 .logo-header {
   color: $black-cl;
@@ -26,7 +24,4 @@
   margin-right: 70px;
 }
 
-.footer-svg-list {
-  display: flex;
-}
 

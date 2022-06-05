@@ -46,9 +46,6 @@ ul {
   font-size: 26px;
   line-height: 1.19;
   color: #2196F3;
-}
-
-.logo {
   text-decoration: none;
 }
 
@@ -59,12 +56,6 @@ ul {
 
 .footer-logo-adress {
   margin-right: 70px;
-}
-
-.footer-svg-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
 }
 
 /* хедер */
@@ -1198,6 +1189,12 @@ ul {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-svg-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 /* форма футер */
 .title-btn-footer {
   font-weight: 700;
@@ -1250,6 +1247,14 @@ ul {
   margin-left: 10px;
 }
 
+.btn-footer-form:focus, .btn-footer-form:hover {
+  background-color: #188CE8;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .input-footer {
   width: 358px;
   height: 50px;
@@ -1290,14 +1295,5 @@ ul {
 
 .list-footer-socsety {
   margin-bottom: 20px;
-}
-
-.btn-footer-form:focus,
-.btn-footer-form:hover {
-  background-color: #188CE8;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*# sourceMappingURL=main.css.map */
