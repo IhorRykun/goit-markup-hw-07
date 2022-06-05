@@ -1,12 +1,12 @@
-:root {
-  --milk-cl: #E5E5E5;
-  --blue-cl: #2196F3;
-  --grey-cl: #757575;
-  --black-cl: #212121;
-  --white-cl: #FFFFFF;
-  --bgk-btn: #F5F4FA;
-  --white-grey: #AFB1B8;
-}
+
+  $milk-cl: #E5E5E5;
+  $blue-cl: #2196F3;
+  $grey-cl: #757575;
+  $black-cl: #212121;
+  $white-cl: #FFFFFF;
+  $bgk-btn: #F5F4FA;
+  $white-grey: #AFB1B8;
+  $dark-blue-cl:#188CE8;
 
 body {
   font-family: 'Roboto',
@@ -17,8 +17,8 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: var(--grey-cl);
-  background-color: var(--milk-cl);
+  color: $grey-cl;
+  background-color: $milk-cl;
 }
 
 /* Скидання всіх відступів */
