@@ -18,18 +18,9 @@
 
 .header-navigation {
   display: flex;
-}
-
-.header-navigation .site-nav+.site-nav {
+  & .site-nav+.site-nav {
   margin-left: 50px;
 }
-
-.mail-nav .site-nav+.site-nav {
-  margin-left: 50px;
-}
-
-.mail-nav {
-  margin-left: auto;
 }
 
 .container-navigation,
@@ -40,6 +31,9 @@
 
 .mail-nav {
   display: flex;
+   margin-left: auto;
+  & .site-nav+.site-nav {
+  margin-left: 50px;}
 }
 
 .svg-header {
@@ -74,41 +68,32 @@
   letter-spacing: 0.02em;
 
   color: $black-cl;
+  text-decoration: none;
 }
-
 
 .list-force .link:hover,
 .list-force .link:focus {
   color: $blue-cl;
   transform: scale(1.1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
-.list-force a {
-  text-decoration: none;
-}
 
 /* Контакти */
 
 .force-contact {
+     display: flex;
+  align-items: center;
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: $grey-cl;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.force-contact {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-}
-
-.force-contact:hover,
-.force-contact:focus {
+&:hover,
+&:focus {
   color: $blue-cl;
   transform: scale(1.1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 }

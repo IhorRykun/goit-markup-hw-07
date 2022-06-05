@@ -7,10 +7,10 @@
 
 .team-social__item {
   margin-left: 10px;
-}
 
-.team-social__item:first-child {
+  &:first-child {
   margin-left: 0px;
+}
 }
 
 .team-social__icon {
@@ -24,10 +24,6 @@
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-social__link:focus {
-  background-color:$blue-cl;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .team-social__link {
   display: flex;
@@ -39,27 +35,27 @@
   background-color: rgba(255, 255, 255, 0.1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
-}
-
-.team-social__link:hover {
+  &:hover,
+&:focus {
   background-color:$blue-cl;
   transform: scale(1.4);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+}
 
 .svg-item {
   margin-left: 10px;
-}
-
-.svg-item:first-child {
+&:first-child {
   margin-left: 0px;
 }
+}
+
 
 .svg-white {
   fill: $white-cl;
 }
 
-.lin .link-inst:hover {
+.link-inst:hover {
   background-color:$blue-cl;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -75,12 +71,12 @@
   background-color: rgba(255, 255, 255, 0.1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
-}
-
-.link-svg:hover {
+  &:hover,
+&:focus {
   background-color:$blue-cl;
   transform: scale(1.4);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 }
 
 .link-svg:hover .socials-svg,
@@ -89,22 +85,9 @@
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-svg:focus {
-  background-color: $blue-cl;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .link-svg:focus .socials-svg {
   fill:$white-cl;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.svg-item {
-  margin-left: 10px;
-}
-
-.svg-item:first-child {
-  margin-left: 0px;
 }
 
 .footer-soce-svg {
