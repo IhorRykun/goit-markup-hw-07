@@ -30,10 +30,9 @@
   border: none;
   cursor: pointer;
   border-color: #188CE8;
-}
 
-.btn-footer-form::after {
-  display: block;
+  &::after 
+  {display: block;
   content: "";
   width: 24px;
   height: 24px;
@@ -45,7 +44,10 @@
   padding-top: 13px;
   padding-bottom: 13px;
   margin-left: 10px;
+
+  }
 }
+
 
 .input-footer {
   width: 358px;
