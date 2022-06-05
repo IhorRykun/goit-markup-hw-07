@@ -1,4 +1,3 @@
-@charset "UTF-8";
 :root {
   --milk-cl: #E5E5E5;
   --blue-cl: #2196F3;
@@ -10,12 +9,14 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto',
+    sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
   color: var(--grey-cl);
   background-color: var(--milk-cl);
 }
@@ -35,6 +36,7 @@ ul {
 }
 
 /* Атрибути головного контейнеру сайту */
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -42,4 +44,3 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-/*# sourceMappingURL=main.css.map */
