@@ -969,8 +969,6 @@ ul {
   height: 44px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-decoration: none;
 }
 
@@ -1117,6 +1115,10 @@ ul {
   display: flex;
 }
 
+.list-footer-socsety {
+  margin-bottom: 20px;
+}
+
 /* форма футер */
 .title-btn-footer {
   font-weight: 700;
@@ -1213,9 +1215,5 @@ ul {
 
 .form-footer {
   margin-left: 93px;
-}
-
-.list-footer-socsety {
-  margin-bottom: 20px;
 }
 /*# sourceMappingURL=main.css.map */
