@@ -1,5 +1,6 @@
+@import "./utils/normalize";
 @import "./base";
-@import "./vendors";
+@import "./utils/vendors";
 @import "./components/logo";
 @import "./components/page-header";
 @import "./components/page-main";
